@@ -16,21 +16,10 @@
     background-size: cover;
     background-image: url("../images/top-photo.jpg");
 }
-.rp-top-text {
-    position: relative;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-    text-shadow: 1px 1px 0px #000000;
-    padding-top: 110px;
+.rp-top-logo {
+    width: 350px;
+    padding-top: 130px;
 }
-.rp-top-subtext {
-    position: relative;
-    color: #ffffff;
-    font-size: 20px;
-    text-shadow: 1px 1px 0px #000000;
-    margin-top: -5px;
- }
 
 
 /* content style */
@@ -58,17 +47,11 @@
     .rp-top-image {
         background-image: url("../images/top-photo.jpg");
     }
-    .rp-top-text {
-        font-size: 56px;
-        padding-left: 13px;
-        padding-top: 152px;
+    .rp-top-logo {
+        width: 80%;
+        padding-top: 180px;
+        padding-left: 10px;
     }
-    .rp-top-subtext {
-        font-size: 32px;
-        padding-left: 15px;
-        margin-top: -10px;
-    }
-
     .rp-text-align {
         padding-left: 15px;
     }
@@ -76,23 +59,17 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .rp-top-text {
-        font-size: 60px;
-        padding-top: 144px;
-    }
-    .rp-top-subtext {
-        font-size: 34px;
+    .rp-top-logo {
+        width: 65%;
+        padding-top: 170px;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .rp-top-text {
-        font-size: 64px;
-        padding-top: 140px;
-    }
-    .rp-top-subtext {
-        font-size: 36px;
+    .rp-top-logo {
+        width: 60%;
+        padding-top: 160px;
     }
 }
 
