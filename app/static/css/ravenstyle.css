@@ -36,6 +36,28 @@
     margin-bottom: 10px;
 }
 
+/* team */
+.rp-text-h1-team {
+    font-size: 18px;
+    font-weight: bold;
+}
+.rp-text-h2-team {
+    font-size: 16px;
+    margin-bottom: 12px;
+ }
+.rp-team-photo {
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    box-shadow: 4px 4px 2px #888888;"
+}
+.rp-linkedin {
+    height: 18px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */
@@ -54,6 +76,12 @@
     }
     .rp-text-align {
         padding-left: 15px;
+    }
+    .rp-team-photo {
+        margin-left: 14px;
+    }
+    .rp-line-align {
+        margin-left: 15px;
     }
 }
 
