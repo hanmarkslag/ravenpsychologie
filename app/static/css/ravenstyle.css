@@ -35,6 +35,17 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
+.rp-text-h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rp-text-h2-next {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
 
 /* team */
 .rp-text-h1-team {
