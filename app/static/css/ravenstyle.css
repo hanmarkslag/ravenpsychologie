@@ -61,12 +61,21 @@
     margin-right: 15px;
     margin-top: 3px;
     margin-bottom: 1px;
-    box-shadow: 4px 4px 2px #888888;"
+    box-shadow: 4px 4px 2px #888888;
 }
 .rp-linkedin {
     height: 18px;
     padding-left: 2px;
     padding-bottom: 1px;
+}
+.rp-1np-logo {
+    float: left;
+    width: 120px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 4px 4px 2px #888888;
+    border: 1px solid darkgrey;
 }
 
 
@@ -89,6 +98,9 @@
         padding-left: 15px;
     }
     .rp-team-photo {
+        margin-left: 14px;
+    }
+    .rp-1np-logo {
         margin-left: 14px;
     }
     .rp-line-align {
