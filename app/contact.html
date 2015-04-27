@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Raven Psychologie is ..."/>
+
+    <title>Raven Psychologie - Contact en route</title>
+
+    <link href="static/lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/ravenstyle.css" rel="stylesheet">
+
+    <script src="static/lib/js/jquery.min.js"></script>
+    <script src="static/lib/js/bootstrap.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
+    <script>
+        function init_map() {
+            var var_location = new google.maps.LatLng(52.19995592,5.43184519);
+
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 12
+            };
+
+            var var_map = new google.maps.Map(document.getElementById("map-canvas"), var_mapoptions);
+
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title:"Raven Psychologie"});
+
+            var_marker.setMap(var_map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+</head>
+
+<body>
+
+<div class="rp-top">
+    <div class="rp-top-image">
+        <div class="container"><img class="rp-top-logo" src="static/images/raven-logo.png"></div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#rpNavigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="rpNavigation" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="./index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li><a href="./aanbod.html">Aanbod</a></li>
+                <li><a href="./werkwijze.html">Werkwijze</a></li>
+                <li class="active"><a href="./vergoeding.html">Vergoeding</a></li>
+                <li><a href="./registraties.html">Registraties</a></li>
+                <li><a href="./links.html">Links</a></li>
+                <li><a href="./contact.html">Contact en route</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="rp-line"></div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">Contactgegevens</div>
+            <div class="rp-text rp-text-align">Raven Psychologie</div>
+            <div class="rp-text rp-text-align">Laaxumstraat 20</div>
+            <div class="rp-text rp-text-align">3826AJ Amersfoort</div>
+            <br>
+            <div class="rp-text rp-text-align">T: 033 12 345 67</div>
+            <div class="rp-text rp-text-align">M: 06 377 33 013</div>
+            <div class="rp-text rp-text-align">E: info@ravenpsychologie.nl</div>
+        </div>
+    </div>
+
+    <hr class="rp-line-align">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">Telefonisch</div>
+            <div class="rp-text rp-text-align">U kunt ons bereiken op telefoonnummer 033-1234567 of mobiel op
+                06-37733013. Op maandag, dinsdag en vrijdag
+                hebben wij telefonisch spreekuur tussen 12.00 uur en 13.00 uur. Op de overige momenten kan de telefoon
+                zijn doorgeschakeld naar ons antwoordapparaat omdat wij op dat moment cliënten zien. Spreek dan
+                gerust uw naam en telefoonnummer in, dan bellen wij u zo spoedig mogelijk terug.
+            </div>
+        </div>
+    </div>
+
+    <hr class="rp-line-align">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">E-mail</div>
+            <div class="rp-text rp-text-align">De praktijk is per e-mail bereikbaar via info@ravenpsychologie.nl. U kunt
+                niet via e-mail aanmelden. Als u interesse heeft in aanmelding kunt u dit uiteraard wel via e-mail laten
+                weten. Vermeld in de e-mail uw naam en telefoonnummer dan bellen wij u zo snel mogelijk terug.
+            </div>
+        </div>
+    </div>
+
+    <hr class="rp-line-align">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">Crisis</div>
+            <div class="rp-text rp-text-align">Op de momenten dat wij niet bereikbaar zijn en u onmiddellijk behoefte
+                heeft aan contact met een behandelaar, dan kunt u terecht bij uw eigen huisarts. Na 17.00 uur
+                en in het weekend kunt u terecht bij de huisartsenpost in uw regio. Indien noodzakelijk kan de
+                betreffende huisartsenpost de crisisdienst inschakelen.
+            </div>
+        </div>
+    </div>
+
+    <hr class="rp-line-align">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">Route</div>
+            <div class="rp-text rp-text-align">Raven Psychologie is gevestigd in de wijk Vathorst van Amersfoort. De
+                praktijk is goed bereikbaar via de rondweg van Vathorst, afslag rotonde 7.
+            </div>
+         </div>
+    </div>
+    <div id="map-canvas"></div>
+
+    <hr class="rp-line-align">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-10">
+            <div class="rp-text-h2 rp-text-align">Openbaar vervoer</div>
+            <div class="rp-text rp-text-align">Met buslijn 3 is Raven Psychologie bereikbaar vanaf zowel treinstation
+                Amersfoort Vathorst (2 minuten) als vanaf treinstation Amersfoort Centraal (20 min). U stapt uit bij bushalte
+                ‘Damespolder’. Steek de brug vervolgens over het water over en loop door tot aan de volgende brug. Steek
+                ook deze tweede brug over en loop rechtdoor, langs het water van de Markenhaven, totdat u bij de eerste straat
+                aan uw rechterhand bij de Laaxumstraat bent gekomen. U vindt ons op de hoek, Laaxumstraat nummer 20.
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+
+
+</body>
+</html>
