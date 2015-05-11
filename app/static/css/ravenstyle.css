@@ -14,7 +14,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/top-photo.jpg");
+    background-image: url("../images/rp-top-photo.jpg");
 }
 .rp-top-logo {
     width: 300px;
@@ -86,7 +86,7 @@
     margin-bottom: 3px;
     box-shadow: 4px 4px 2px #888888;
 }
-.rp-link-logo {
+.rp-link-logo, .rp-link-logo-lg {
     float: left;
     width: 100px;
     margin-right: 15px;
@@ -95,6 +95,9 @@
     box-shadow: 4px 4px 2px #888888;
     border: 1px solid darkgrey;
  }
+.rp-link-logo-lg {
+    width: 150px;
+}
 
 #map-canvas {
     height: 300px;
@@ -111,7 +114,7 @@
         height: 300px;
     }
     .rp-top-image {
-        background-image: url("../images/top-photo.jpg");
+        background-image: url("../images/rp-top-photo.jpg");
     }
     .rp-top-logo {
         width: 80%;
@@ -133,7 +136,7 @@
     .rp-registratie-logo {
         margin-left: 14px;
     }
-    .rp-link-logo {
+    .rp-link-logo, .rp-link-logo-lg {
         margin-left: 14px;
     }
     #map-canvas {
