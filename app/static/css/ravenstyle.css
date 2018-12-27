@@ -47,6 +47,26 @@
     width: 20px;
 }
 
+#team-psychologen img {
+    margin-top: -50px;
+}
+#team-psychologen .card {
+    background-color: #fcfcfc;
+}
+#team-psychologen .card:hover {
+    background: #7a6c66;
+    color: #fff;
+}
+#team-psychologen .card:hover a {
+    color: #d1cecc;
+}
+#leesMinderMarianne > a, #leesMeerMarianne > a,
+#leesMinderJolien > a, #leesMeerJolien > a,
+#leesMinderAnnet > a, #leesMeerAnnet > a {
+    color: #4c4a49;
+    font-weight: bold;
+}
+
 .footer {
     height: 60px;
     background-color: #f7f5ef;
