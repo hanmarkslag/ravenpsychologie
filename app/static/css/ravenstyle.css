@@ -44,7 +44,7 @@
     font-size: 14px;
 }
 .rp-home-contact-icon {
-    width: 20px;
+    width: 22px;
 }
 
 #team-psychologen img {
@@ -75,6 +75,11 @@
     margin-bottom: 3px;
     box-shadow: 4px 4px 2px #888888;
     border: 1px solid darkgrey;
+}
+
+.rp-contact-map {
+    width: 350px;
+    height: 262px;
 }
 
 .footer {
@@ -109,6 +114,11 @@
     .rp-home-contact-body {
         padding-left: 16px;
         margin-top: 32px;
+    }
+
+    .rp-contact-map {
+        width: 600px;
+        height: 400px;
     }
 }
 
