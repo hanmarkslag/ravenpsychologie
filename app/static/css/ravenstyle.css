@@ -67,6 +67,16 @@
     font-weight: bold;
 }
 
+.rp-1np-logo {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 4px 4px 2px #888888;
+    border: 1px solid darkgrey;
+}
+
 .footer {
     height: 60px;
     background-color: #f7f5ef;
@@ -100,7 +110,6 @@
         padding-left: 16px;
         margin-top: 32px;
     }
-
 }
 
 /* Navigation */
