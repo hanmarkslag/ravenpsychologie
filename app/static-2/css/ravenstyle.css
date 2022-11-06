@@ -69,14 +69,16 @@ a:hover {
 #team-psychologen .card:hover a {
   color: #d1cecc;
 }
-#leesMinderMarianne > a,
-#leesMeerMarianne > a,
-#leesMinderJolien > a,
-#leesMeerJolien > a,
-#leesMinderAnnet > a,
-#leesMeerAnnet > a,
-#leesMinderAernoud > a,
-#leesMeerAernoud > a {
+#minderMarianneLink > a,
+#meerMarianneLink > a,
+#minderJolienLink > a,
+#meerJolienLink > a,
+#minderAnnetLink > a,
+#meerAnnetLink > a,
+#minderAnnebetLink > a,
+#meerAnnebetLink > a,
+#minderAernoudLink > a,
+#meerAernoudLink > a {
   color: #4c4a49;
   font-weight: bold;
 }

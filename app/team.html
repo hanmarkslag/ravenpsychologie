@@ -14,31 +14,57 @@
 
     <title>Raven Psychologie Amersfoort Vathorst - Team</title>
 
-    <link rel="stylesheet" href="static/lib/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="static/lib/fonts/css/solid.min.css" />
-    <link rel="stylesheet" href="static/lib/fonts/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="static/css/ravenstyle.css" />
+    <link rel="stylesheet" href="static-2/css/bootstrap-5.2.2.min.css" />
+    <link rel="stylesheet" href="static-2/css/solid-6.2.0.min.css" />
+    <link rel="stylesheet" href="static-2/css/fontawesome-6.2.0.min.css" />
+    <link rel="stylesheet" href="static-2/css/ravenstyle.css" />
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-light navbar-expand-md sticky-top" role="navigation">
+    <nav
+      class="navbar navbar-light navbar-expand-md sticky-top"
+      role="navigation"
+    >
       <div class="container">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
           <span class="navbar-title">Team</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link"> <span class="fas fa-home" aria-hidden="true"></span></a>
+              <a href="./index.html" class="nav-link">
+                <span class="fas fa-home" aria-hidden="true"></span
+              ></a>
             </li>
-            <li class="nav-item active"><a href="./team.html" class="nav-link">Team</a></li>
-            <li class="nav-item"><a href="./aanbod.html" class="nav-link">Aanbod</a></li>
-            <li class="nav-item"><a href="./werkwijze.html" class="nav-link">Werkwijze</a></li>
-            <li class="nav-item"><a href="./vergoeding.html" class="nav-link">Vergoeding</a></li>
-            <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item active">
+              <a href="./team.html" class="nav-link">Team</a>
+            </li>
             <li class="nav-item">
-              <a href="./static/docs/privacy-statemant-raven-psychologie.pdf" target="_blank" class="nav-link"
+              <a href="./aanbod.html" class="nav-link">Aanbod</a>
+            </li>
+            <li class="nav-item">
+              <a href="./werkwijze.html" class="nav-link">Werkwijze</a>
+            </li>
+            <li class="nav-item">
+              <a href="./vergoeding.html" class="nav-link">Vergoeding</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="./static-2/documents/privacy-statemant-raven-psychologie.pdf"
+                target="_blank"
+                class="nav-link"
                 >Privacy</a
               >
             </li>
@@ -51,63 +77,88 @@
     <section id="home-top-photo">
       <div class="rp-top-image rp-top-image-sizing">
         <div class="container">
-          <img class="rp-top-logo" src="static/images/rp-raven-logo.png" />
+          <img class="rp-top-logo" src="static-2/images/rp-raven-logo.png" />
         </div>
       </div>
     </section>
 
-    <!-- INTRO TEAM -->
-    <section id="team-intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1 class="rp-h1-header mt-4"></h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="team-psychologen" class="mt-5 text-center">
+    <section id="team-psychologen" class="mt-5">
       <div class="container">
         <div class="row mb-3">
           <!-- Marianne-->
-          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
             <div class="card mb-5">
-              <div class="card-body">
-                <img
-                  src="static/images/rp-marianne.jpg"
-                  alt="Marianne Raven"
-                  class="img-fluid rounded-circle w-50 mb-3 border"
-                />
-                <h4>Marianne Raven</h4>
-                <p class="text-left">
-                  Psychotherapeut, GZ-psycholoog, EMDR-practitioner Europe, Orthopedagoog, Lid LVVP, Lid NVP, Lid VEN,
-                  Lid VPPE, aangesloten bij Stichting 1nP.
-                </p>
-                <p class="text-left">
-                  Sinds 2006 ben ik als psycholoog werkzaam in een vrijgevestigde praktijk. Kinderen, jongeren en hun
-                  ouders kunnen bij mij terecht voor veel verschillende psychische problemen.
-                </p>
-                <div class="collapse" id="collapseMarianne">
-                  <p class="text-left">
-                    Ook bied ik ouderbegeleiding en bied ik naast behandeling, diagnostisch, persoonlijkheids- en
-                    intelligentie-onderzoek.
-                  </p>
-                  <p class="text-left">
-                    Binnen behandeltrajecten werk ik integratief waarbij ik met name gebruik maak van psychotherapie,
-                    cognitieve gedragstherapie, schematherapie, EMDR en oplossingsgerichte therapie. Ik werk veel samen
-                    met collega Jolien van der Zwaag waarbij we gezamenlijk een onderzoeks- en/of behandelingstraject
-                    vormgeven.
-                  </p>
-                  <p class="text-left">BIG-PT 89063144316, BIG-GZ 69063144325, AGB-code 94006155, KvK 32160951</p>
+              <div id="marianne" class="card-body">
+                <div class="text-center">
+                  <img
+                    src="static-2/images/rp-marianne.jpg"
+                    alt="Marianne Raven"
+                    class="img-fluid rounded-circle w-50 mb-3 border"
+                  />
                 </div>
-                <div id="leesMinderMarianne">
-                  <a data-toggle="collapse" href="#collapseMarianne" onclick="hideLeesMinderMarianne();">
+                <h4 class="text-center">Marianne Raven</h4>
+                <p class="text-center">
+                  Psychotherapeut, GZ-psycholoog, EMDR-practitioner Europe,
+                  Orthopedagoog. Lidmaatschappen: LVVP, NVP, VEN, VPPE.
+                </p>
+                <p class="text-left mt-4">
+                  Sinds 2006 ben ik als psycholoog werkzaam in een
+                  vrijgevestigde praktijk. Daarvoor heb ik ervaring opgedaan in
+                  verschillende grote instellingen voor Jeugdhulp/jeugdzorg en
+                  de GGZ, zowel in klinieken als op poliklinieken. Ik vind het
+                  belangrijk om op een prettige en laagdrempelige locatie te
+                  werken waar kwaliteit hoog in het vaandel staat en het op maat
+                  bieden van zorg mogelijk is.
+                </p>
+                <div id="meerMarianne">
+                  <p class="text-left">
+                    Cliënten kunnen bij mij terecht voor veel verschillende
+                    psychische problemen. Ook bied ik ouderbegeleiding. Naast
+                    behandeling bied ik diagnostisch, persoonlijkheids- en
+                    intelligentie-onderzoek. Ik behandel kinderen, jongeren en
+                    volwassenen.
+                  </p>
+                  <p class="text-left">
+                    Binnen behandeltrajecten werk ik integratief waarbij ik met
+                    name gebruik maak van psychotherapie, cognitieve
+                    gedragstherapie, schematherapie, EMDR, ACT en
+                    oplossingsgerichte therapie.
+                  </p>
+                  <p class="text-left">
+                    BIG-PT 89063144316, BIG-GZ 69063144325, AGB-code 94006155,
+                    KvK 32160951
+                  </p>
+                  <div class="text-center">
+                    <!-- LVVP logo -->
+                    <h6 class="mt-4">LVVP visitatiecertificaat</h6>
+                    <img
+                      src="static-2/images/rp-lvvp.jpg"
+                      alt="LVVP visitatie"
+                      class="img-fluid rounded-circle border ml-3 mt-2 mb-3"
+                    />
+                    <div class="rp-home-contact-text">
+                      Marianne Raven is gevisiteerd op basis van de
+                      LVVP-kwaliteitscriteria.
+                    </div>
+                    <div class="rp-text mt-4 mb-4">
+                      Klik
+                      <a
+                        href="./static-2/documents/kwaliteitsstatuut-marianne-raven-2022.pdf"
+                        target="_blank"
+                      >
+                        hier </a
+                      >voor het kwaliteitsstatuut van Marianne Raven.
+                    </div>
+                  </div>
+                </div>
+
+                <div id="minderMarianneLink" class="text-center">
+                  <a href="#marianne" onclick="toggleMeerMarianne();">
                     Lees minder <<
                   </a>
                 </div>
-                <div id="leesMeerMarianne">
-                  <a data-toggle="collapse" href="#collapseMarianne" onclick="hideLeesMeerMarianne();">
+                <div id="meerMarianneLink" class="text-center">
+                  <a href="#marianne" onclick="toggleMeerMarianne();">
                     >> Lees meer
                   </a>
                 </div>
@@ -116,126 +167,276 @@
           </div>
 
           <!-- Jolien-->
-          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
             <div class="card mb-5">
-              <div class="card-body">
-                <img
-                  src="static/images/rp-jolien.jpg"
-                  alt="Jolien van der Zwaag"
-                  class="img-fluid rounded-circle w-50 border mb-3"
-                />
-                <h4>Jolien van der Zwaag</h4>
-                <p class="text-left">
-                  GZ-psycholoog i.o., Master-psycholoog SKJ, lid NIP, aangesloten bij Stichting 1nP.
-                </p>
-                <p class="text-left">
-                  In de periode 2013-2020 ben ik als behandelcoördinator / teamhoofd werkzaam geweest bij een jeugdzorg
-                  instelling waar ik verantwoordelijk was voor de behandeling van kinderen tussen 0 en 5 jaar.
-                </p>
-                <div class="collapse" id="collapseJolien">
-                  <p class="text-left">
-                    Sinds 2015 ben ik werkzaam bij Raven Psychologie en sinds maart 2020 ben ik hier in opleiding tot
-                    GZ-psycholoog.
-                  </p>
-                  <p class="text-left">
-                    Ik ben gecertificeerd trainer voor de Incredible Years / Pittige Jaren oudertraining. Ik heb ruime
-                    ervaring met de jongste doelgroep cliënten en ben geschoold in externaliserende stoornissen. Ik werk
-                    ook graag met adolescenten.
-                  </p>
-                  <p class="text-left">
-                    Bij Raven Psychologie bied ik oplossingsgerichte therapie en cognitieve gedragstherapie. Ik
-                    ondersteun ouders in de vorm van ouderbegeleiding. Ook kan ik naar de school van uw kind gaan voor
-                    observatie of om met de docent of intern begeleider te overleggen. Naast behandeling bied ik ook
-                    diagnostisch, persoonlijkheids- en intelligentie-onderzoek.
-                  </p>
-                  <p class="text-left">SKJ.nr. 130002051, AGB-code 94105044, KvK 62592041</p>
+              <div id="jolien" class="card-body">
+                <div class="text-center">
+                  <img
+                    src="static-2/images/rp-jolien.jpg"
+                    alt="Jolien van der Zwaag"
+                    class="img-fluid rounded-circle w-50 border mb-3"
+                  />
                 </div>
-                <div id="leesMinderJolien">
-                  <a data-toggle="collapse" href="#collapseJolien" onclick="hideLeesMinderJolien();">
+                <h4 class="text-center">Jolien van der Zwaag</h4>
+                <p class="text-center">
+                  GZ-psycholoog. Lidmaatschappen: LVVP, NIP, VPPE.
+                </p>
+                <p class="text-left mt-4">
+                  Sinds 2015 ben ik werkzaam bij Raven Psychologie, eerst als
+                  kinder- en jeugdpsycholoog en sinds april 2022 als
+                  GZ-psycholoog. In de periode 2013-2020 was ik ook werkzaam bij
+                  een jeugdzorg instelling waar ik verantwoordelijk was voor de
+                  behandeling van kinderen tussen 0 en 7 jaar. Daarvoor heb ik
+                  gewerkt als marketeer en manager bij verschillende commerciële
+                  bedrijven in de gezondheidszorg, voordat ik in 2008 besloot
+                  opnieuw te gaan studeren om psycholoog te worden.
+                </p>
+                <div id="meerJolien">
+                  <p class="text-left">
+                    Bij Raven Psychologie bied ik cognitieve gedragstherapie en
+                    oplossingsgerichte therapie aan kinderen, jongeren en
+                    jongvolwassenen. Ik ondersteun ouders in de vorm van
+                    ouderbegeleiding. Ook kan ik naar de school van uw kind gaan
+                    voor een observatie of overleg. Naast behandeling doe ik ook
+                    diagnostiek en individueel testonderzoek zoals intelligentie
+                    onderzoek en neuro-psychologisch onderzoek.
+                  </p>
+                  <p class="text-left">
+                    Binnen de hulpverleningstrajecten werk ik integratief en
+                    transdiagnostisch waarbij ik samen met de cliënt
+                    (ouders/kind) de behandeling op maat maak. De Nederlandse
+                    GGZ-zorgstandaarden en evidence-based behandelprotocollen
+                    vormen daarbij de basis en functioneren als vertrekpunt. Ik
+                    geef ook ouder-kind therapie met elementen van Theraplay.
+                  </p>
+                  <p class="text-left">
+                    BIG-GZ 49930872525, AGB-code 94105044, KvK 62592041
+                  </p>
+                  <div class="rp-text mt-4 mb-4">
+                    Klik
+                    <a
+                      href="./static-2/documents/kwaliteitsstatuut-jolien-van-der-zwaag-2022.pdf"
+                      target="_blank"
+                    >
+                      hier </a
+                    >voor het kwaliteitsstatuut van Jolien van der Zwaag.
+                  </div>
+                </div>
+                <div id="minderJolienLink" class="text-center">
+                  <a href="#jolien" onclick="toggleMeerJolien();">
                     Lees minder <<
                   </a>
                 </div>
-                <div id="leesMeerJolien">
-                  <a data-toggle="collapse" href="#collapseJolien" onclick="hideLeesMeerJolien();"> >> Lees meer </a>
+                <div id="meerJolienLink" class="text-center">
+                  <a href="#jolien" onclick="toggleMeerJolien();">
+                    >> Lees meer
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Annet-->
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
             <div class="card mb-5">
-              <div class="card-body">
-                <img
-                  src="static/images/rp-annet.jpg"
-                  alt="Annet van Diermen"
-                  class="img-fluid rounded-circle w-50 border mb-3"
-                />
-                <h4>Annet van Diermen</h4>
-                <p class="text-left">
-                  GZ-psycholoog, EMDR-practitioner Europe, Orthopedagoog, Lid LVVP, Lid VEN, lid VPPE, aangesloten bij
-                  Stichting 1nP.
+              <div id="annet" class="card-body">
+                <div class="text-center">
+                  <img
+                    src="static-2/images/rp-annet.jpg"
+                    alt="Annet van Diermen"
+                    class="img-fluid rounded-circle w-50 border mb-3"
+                  />
+                </div>
+                <h4 class="text-center">Annet van Diermen</h4>
+                <p class="text-center">
+                  GZ-psycholoog, EMDR-practitioner Europe, Orthopedagoog
+                  Lidmaatschappen: LVVP, VPPE, VEN en ACBS BeNe.
                 </p>
                 <p class="text-left">
-                  Na ruim 12 jaar als GZ-psycholoog te hebben gewerkt op verschillende kinder- en jeugdafdelingen van
-                  GGZ Centraal en Riagg Amersfoort, heb ik in 2017 de keuze gemaakt om als vrijgevestigde bij Raven
-                  Psychologie te gaan werken.
+                  Sinds 2017 werk ik met veel plezier als vrijgevestigd
+                  GZ-psycholoog bij Raven Psychologie. Daarvoor heb ik ruim 12
+                  jaar op verschillende kinder- en jeugdafdelingen van twee
+                  grote GGZ instellingen gewerkt en daar ervaring opgedaan met
+                  zowel diagnostiek als behandeling. Het werken in een
+                  kleinschalige en laagdrempelige setting past goed bij mij,
+                  omdat ik hier de persoonlijke aandacht en kwaliteit kan bieden
+                  die ik belangrijk vind.
                 </p>
-                <div class="collapse" id="collapseAnnet">
+                <div id="meerAnnet">
                   <p class="text-left">
-                    Ik heb veel ervaring met diagnostiek en behandeling van kinderen en jongeren met uiteenlopende
-                    problematiek. De behandeling van angst en trauma heeft mijn speciale interesse.
+                    Ik maak gebruik van verschillende behandelvormen om daarmee
+                    zo goed mogelijk aan te kunnen sluiten bij de vraag van de
+                    cliënt. De behandelvormen waar ik gebruik van maak zijn
+                    onder andere (cognitieve) gedragstherapie, EMDR, Acceptance
+                    Commitment Therapie (ACT) en schematherapie. Ook geef ik
+                    ouderbegeleiding en verricht ik diagnostisch en
+                    psychologisch onderzoek. Ik behandel kinderen, jongeren en
+                    volwassenen.
                   </p>
                   <p class="text-left">
-                    Ik maak gebruik van verschillende behandelmethoden, waaronder EMDR, (cognitieve) gedragstherapie,
-                    oplossingsgerichte therapie en Acceptance Commitment Therapy. Ook geef ik ouderbegeleiding en
-                    opvoedondersteuning.
+                    De verschillende leeftijden, achtergronden en hulpvragen van
+                    mijn cliënten maken voor mij het werk heel boeiend. Ik vind
+                    het waardevol om door middel van diagnostiek cliënten en
+                    ouders meer inzicht te geven in zichzelf of hun kind en hen
+                    door middel van behandeling verder op weg te helpen. Daarbij
+                    spreken de principes van ACT mij erg aan, omdat hierbij niet
+                    zozeer de klachten centraal staan, maar het vergroten van de
+                    flexibiliteit en veerkracht in het omgaan met problemen en
+                    uitdagingen die het leven met zich meebrengt.
                   </p>
-                  <p class="text-left">BIG-GZ 79061344125, AGB-code 94015519, KvK 68308647</p>
+                  <p class="text-left">
+                    BIG-GZ 79061344125, AGB-code 94015519, KvK 68308647
+                  </p>
+                  <div class="rp-text mt-4 mb-4">
+                    Klik
+                    <a
+                      href="./static-2/documents/kwaliteitsstatuut-annet-van-diermen-2022.pdf"
+                      target="_blank"
+                    >
+                      hier </a
+                    >voor het kwaliteitsstatuut van Annet van Diermen.
+                  </div>
                 </div>
-                <div id="leesMinderAnnet">
-                  <a data-toggle="collapse" href="#collapseAnnet" onclick="hideLeesMinderAnnet();"> Lees minder << </a>
+                <div id="minderAnnetLink" class="text-center">
+                  <a href="#annet" onclick="toggleMeerAnnet();">
+                    Lees minder <<
+                  </a>
                 </div>
-                <div id="leesMeerAnnet">
-                  <a data-toggle="collapse" href="#collapseAnnet" onclick="hideLeesMeerAnnet();"> >> Lees meer </a>
+                <div id="meerAnnetLink" class="text-center">
+                  <a href="#annet" onclick="toggleMeerAnnet();">
+                    >> Lees meer
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Aernoud -->
-          <div class="col-lg-4 col-md-6 mb-3">
+          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
             <div class="card mb-5">
-              <div class="card-body">
-                <img
-                  src="static/images/rp-aernoud.jpg"
-                  alt="Aernoud van der Knoop"
-                  style="opacity: 0.8"
-                  class="img-fluid rounded-circle w-50 mb-3 border"
-                />
-                <h4>Aernoud van der Knoop</h4>
-                <p class="text-left">Psychotherapeut, GZ-psycholoog, lid NVP, lid VEN.</p>
-                <p class="text-left">
-                  Ik ben sinds oktober 2019 als ZZP-er werkzaam bij Raven Psychologie. Ik heb lang gewerkt in diverse
-                  grote GGZ-instellingen en vanuit mijn werk ervaring opgedaan in diagnostiek en behandeling bij
-                  cliënten met onder meer verslavings-problematiek, traumagerelateerde problematiek en
-                  persoonlijkheids-problematiek.
-                </p>
-                <div class="collapse" id="collapseAernoud">
-                  <p class="text-left">In mijn werk maak ik gebruik van CGT en schemagerichte therapie.</p>
-                  <p class="text-left">
-                    Naast mijn werkzaamheden voor Raven Psychologie werk ik in de volwassenenzorg bij een GGZ-instelling
-                    in Amersfoort en ben ik als docent verbonden aan de Rino-groep en de Universiteit Utrecht.
-                  </p>
-                  <p class="text-left">BIG-PT 49909682516, BIG-GZ 29909682525, AGB-code 94015795, KvK 76160289</p>
+              <div id="aernoud" class="card-body">
+                <div class="text-center">
+                  <img
+                    src="static-2/images/rp-aernoud.jpg"
+                    alt="Aernoud van der Knoop"
+                    style="opacity: 0.8"
+                    class="img-fluid rounded-circle w-50 mb-3 border"
+                  />
                 </div>
-                <div id="leesMinderAernoud">
-                  <a data-toggle="collapse" href="#collapseAernoud" onclick="hideLeesMinderAernoud();">
+                <h4 class="text-center">Aernoud van der Knoop</h4>
+                <p class="text-center">
+                  Psychotherapeut, GZ-psycholoog, EMDR-therapeut.
+                  Lidmaatschappen: LVVP, NVP, VEN.
+                </p>
+                <p class="text-left">
+                  Ik ben sinds oktober 2019 als ZZP-er werkzaam bij Raven
+                  Psychologie. Ik heb lang gewerkt in diverse grote
+                  GGZ-instellingen en vanuit mijn werk ervaring opgedaan in
+                  diagnostiek en behandeling bij cliënten met onder meer
+                  verslavingsproblematiek, traumagerelateerde problematiek en
+                  persoonlijkheidsproblematiek. In mijn werk maak ik gebruik van
+                  CGT en schemagerichte therapie. Ik behandel kinderen, jongeren
+                  en volwassenen.
+                </p>
+                <div id="meerAernoud">
+                  <p class="text-left">
+                    Naast mijn werkzaamheden voor Raven Psychologie, werk ik in
+                    een vrijgevestigde praktijk in Harderwijk en ben ik als
+                    docent verbonden aan de RINO-groep en de Universiteit
+                    Utrecht.
+                  </p>
+                  <p class="text-left">
+                    BIG-PT 49909682516, BIG-GZ 29909682525, AGB-code 94015795,
+                    KvK 76160289
+                  </p>
+                  <div class="text-center">
+                    <!-- LVVP logo -->
+                    <h6 class="mt-4">LVVP visitatiecertificaat</h6>
+                    <img
+                      src="static-2/images/rp-lvvp.jpg"
+                      alt="LVVP visitatie"
+                      class="img-fluid rounded-circle border ml-3 mt-2 mb-3"
+                    />
+                    <div class="rp-home-contact-text">
+                      Aernoud van der Knoop is gevisiteerd op basis van de
+                      LVVP-kwaliteitscriteria.
+                    </div>
+                    <div class="rp-text mt-4 mb-4">
+                      Klik
+                      <a
+                        href="./static-2/documents/kwaliteitsstatuut-aernoud-van-der-knoop-2022.pdf"
+                        target="_blank"
+                      >
+                        hier </a
+                      >voor het kwaliteitsstatuut van Aernoud van der Knoop.
+                    </div>
+                  </div>
+                </div>
+                <div id="minderAernoudLink" class="text-center">
+                  <a href="#collapseAernoud" onclick="toggleMeerAernoud();">
                     Lees minder <<
                   </a>
                 </div>
-                <div id="leesMeerAernoud">
-                  <a data-toggle="collapse" href="#collapseAernoud" onclick="hideLeesMeerAernoud();"> >> Lees meer </a>
+                <div id="meerAernoudLink" class="text-center">
+                  <a href="#collapseAernoud" onclick="toggleMeerAernoud();">
+                    >> Lees meer
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Annebet-->
+          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
+            <div class="card mb-5">
+              <div id="annebet" class="card-body">
+                <div class="text-center">
+                  <img
+                    src="static-2/images/rp-annebet.jpg"
+                    alt="Annebet Visser"
+                    class="img-fluid rounded-circle w-50 border mb-3"
+                  />
+                </div>
+                <h4 class="text-center">Annebet Visser</h4>
+                <p class="text-center">
+                  GZ-psycholoog i.o. (PIOG), Master-orthopedagoog SKJ,
+                  Orthopedagoog. Lidmaatschappen: NVO, VGCT.
+                </p>
+                <p class="text-left">
+                  Per 1 januari 2022 ben ik als GZ-psycholoog-in-opleiding
+                  werkzaam bij Raven Psychologie. Als orthopedagoog heb ik brede
+                  ervaring opgedaan door in diverse organisaties met
+                  verschillende doelgroepen te werken: in een ziekenhuis, binnen
+                  de jeugdzorg, de gehandicaptenzorg en de kinderopvang. Sinds
+                  2013 heb ik als zelfstandige binnen een 1e lijnspraktijk voor
+                  orthopedagogiek en psychologie gewerkt, waarbij ik kinderen
+                  van 0-12 jaar en hun ouders met uiteenlopende hulpvragen
+                  behandelde.
+                </p>
+                <div id="meerAnnebet">
+                  <p class="text-left">
+                    Mijn manier van werken kenmerkt zich door goed contact,
+                    openheid, transparantie, oprechte betrokkenheid,
+                    samenwerking en overleg met jou als mijn cliënt, en waar
+                    nodig of gewenst afstemming met naaste betrokkenen en
+                    professionals. Naast aandacht voor probleemgebieden ben ik
+                    juist ook geïnteresseerd in jouw sterke
+                    (karakter)eigenschappen en veerkracht. Mijn behandelingen
+                    hebben tot doel zelf weer verder te kunnen.
+                  </p>
+                  <p class="text-left">
+                    SKJ-register 120003700, AGB-code 94012812, KvK 56770413
+                  </p>
+                </div>
+                <div id="minderAnnebetLink" class="text-center">
+                  <a href="#annebet" onclick="toggleMeerAnnebet();">
+                    Lees minder <<
+                  </a>
+                </div>
+                <div id="meerAnnebetLink" class="text-center">
+                  <a href="#annebet" onclick="toggleMeerAnnebet();">
+                    >> Lees meer
+                  </a>
                 </div>
               </div>
             </div>
@@ -251,49 +452,93 @@
       </div>
     </footer>
 
-    <script src="static/lib/jquery/jquery-3.3.1.min.js"></script>
-    <script src="static/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static-2/js/bootstrap-5.2.2.min.js"></script>
 
     <script>
-      $('#leesMinderMarianne').hide();
-      $('#leesMinderJolien').hide();
-      $('#leesMinderAnnet').hide();
-      $('#leesMinderAernoud').hide();
+      // Marianne
+      const _minder_marianne_link =
+        document.getElementById("minderMarianneLink");
+      const _meer_marianne_link = document.getElementById("meerMarianneLink");
+      const _meer_marianne = document.getElementById("meerMarianne");
+      _meer_marianne.style.display = "none";
+      _minder_marianne_link.style.display = "none";
+      _meer_marianne_link.style.display = "block";
 
-      function hideLeesMeerMarianne() {
-        $('#leesMeerMarianne').hide();
-        $('#leesMinderMarianne').show();
-      }
-      function hideLeesMinderMarianne() {
-        $('#leesMinderMarianne').hide();
-        $('#leesMeerMarianne').show();
-      }
-
-      function hideLeesMeerJolien() {
-        $('#leesMeerJolien').hide();
-        $('#leesMinderJolien').show();
-      }
-      function hideLeesMinderJolien() {
-        $('#leesMinderJolien').hide();
-        $('#leesMeerJolien').show();
+      function toggleMeerMarianne() {
+        _minder_marianne_link.style.display =
+          _meer_marianne.style.display === "none" ? "block" : "none";
+        _meer_marianne_link.style.display =
+          _meer_marianne.style.display === "none" ? "none" : "block";
+        _meer_marianne.style.display =
+          _meer_marianne.style.display === "none" ? "block" : "none";
       }
 
-      function hideLeesMeerAnnet() {
-        $('#leesMeerAnnet').hide();
-        $('#leesMinderAnnet').show();
-      }
-      function hideLeesMinderAnnet() {
-        $('#leesMinderAnnet').hide();
-        $('#leesMeerAnnet').show();
+      // Jolien
+      const _minder_jolien_link = document.getElementById("minderJolienLink");
+      const _meer_jolien_link = document.getElementById("meerJolienLink");
+      const _meer_jolien = document.getElementById("meerJolien");
+      _meer_jolien.style.display = "none";
+      _minder_jolien_link.style.display = "none";
+      _meer_jolien_link.style.display = "block";
+
+      function toggleMeerJolien() {
+        _minder_jolien_link.style.display =
+          _meer_jolien.style.display === "none" ? "block" : "none";
+        _meer_jolien_link.style.display =
+          _meer_jolien.style.display === "none" ? "none" : "block";
+        _meer_jolien.style.display =
+          _meer_jolien.style.display === "none" ? "block" : "none";
       }
 
-      function hideLeesMeerAernoud() {
-        $('#leesMeerAernoud').hide();
-        $('#leesMinderAernoud').show();
+      // Annet
+      const _minder_annet_link = document.getElementById("minderAnnetLink");
+      const _meer_annet_link = document.getElementById("meerAnnetLink");
+      const _meer_annet = document.getElementById("meerAnnet");
+      _meer_annet.style.display = "none";
+      _minder_annet_link.style.display = "none";
+      _meer_annet_link.style.display = "block";
+
+      function toggleMeerAnnet() {
+        _minder_annet_link.style.display =
+          _meer_annet.style.display === "none" ? "block" : "none";
+        _meer_annet_link.style.display =
+          _meer_annet.style.display === "none" ? "none" : "block";
+        _meer_annet.style.display =
+          _meer_annet.style.display === "none" ? "block" : "none";
       }
-      function hideLeesMinderAernoud() {
-        $('#leesMinderAernoud').hide();
-        $('#leesMeerAernoud').show();
+
+      // Aernoud
+      const _minder_aernoud_link = document.getElementById("minderAernoudLink");
+      const _meer_aernoud_link = document.getElementById("meerAernoudLink");
+      const _meer_aernoud = document.getElementById("meerAernoud");
+      _meer_aernoud.style.display = "none";
+      _minder_aernoud_link.style.display = "none";
+      _meer_aernoud_link.style.display = "block";
+
+      function toggleMeerAernoud() {
+        _minder_aernoud_link.style.display =
+          _meer_aernoud.style.display === "none" ? "block" : "none";
+        _meer_aernoud_link.style.display =
+          _meer_aernoud.style.display === "none" ? "none" : "block";
+        _meer_aernoud.style.display =
+          _meer_aernoud.style.display === "none" ? "block" : "none";
+      }
+
+      // Annebet
+      const _minder_annebet_link = document.getElementById("minderAnnebetLink");
+      const _meer_annebet_link = document.getElementById("meerAnnebetLink");
+      const _meer_annebet = document.getElementById("meerAnnebet");
+      _meer_annebet.style.display = "none";
+      _minder_annebet_link.style.display = "none";
+      _meer_annebet_link.style.display = "block";
+
+      function toggleMeerAnnebet() {
+        _minder_annebet_link.style.display =
+          _meer_annebet.style.display === "none" ? "block" : "none";
+        _meer_annebet_link.style.display =
+          _meer_annebet.style.display === "none" ? "none" : "block";
+        _meer_annebet.style.display =
+          _meer_annebet.style.display === "none" ? "block" : "none";
       }
     </script>
   </body>
