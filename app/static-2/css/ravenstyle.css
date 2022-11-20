@@ -1,5 +1,5 @@
 .rp-top-image {
-  background-image: url("../images/rp-top-photo-small.jpg");
+  background-image: url('../images/rp-top-photo-small.jpg');
 }
 .rp-top-image-sizing {
   height: 500px;
@@ -83,6 +83,10 @@ a:hover {
   font-weight: bold;
 }
 
+.rp-lvvp-logo {
+  width: 100px;
+}
+
 .rp-1np-logo {
   float: left;
   width: 100px;
@@ -109,7 +113,7 @@ a:hover {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .rp-top-image {
-    background-image: url("../images/rp-top-photo.jpg");
+    background-image: url('../images/rp-top-photo.jpg');
   }
   .rp-top-logo {
     width: 700px;
