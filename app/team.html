@@ -327,49 +327,6 @@
               </div>
             </div>
           </div>
-
-          <!-- Annebet-->
-          <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex align-items-stretch">
-            <div class="card mb-5">
-              <div id="annebet" class="card-body">
-                <div class="text-center">
-                  <img
-                    src="static-2/images/rp-annebet.jpg"
-                    alt="Annebet Visser"
-                    class="img-fluid rounded-circle w-50 border mb-3"
-                  />
-                </div>
-                <h4 class="text-center">Annebet Visser</h4>
-                <p class="text-center">
-                  GZ-psycholoog i.o. (PIOG), Master-orthopedagoog SKJ, Orthopedagoog. Lidmaatschappen: NVO, VGCT.
-                </p>
-                <p class="text-left">
-                  Per 1 januari 2022 ben ik als GZ-psycholoog-in-opleiding werkzaam bij Raven Psychologie. Als
-                  orthopedagoog heb ik brede ervaring opgedaan door in diverse organisaties met verschillende
-                  doelgroepen te werken: in een ziekenhuis, binnen de jeugdzorg, de gehandicaptenzorg en de
-                  kinderopvang. Sinds 2013 heb ik als zelfstandige binnen een 1e lijnspraktijk voor orthopedagogiek en
-                  psychologie gewerkt, waarbij ik kinderen van 0-12 jaar en hun ouders met uiteenlopende hulpvragen
-                  behandelde.
-                </p>
-                <div id="meerAnnebet">
-                  <p class="text-left">
-                    Mijn manier van werken kenmerkt zich door goed contact, openheid, transparantie, oprechte
-                    betrokkenheid, samenwerking en overleg met jou als mijn cliënt, en waar nodig of gewenst afstemming
-                    met naaste betrokkenen en professionals. Naast aandacht voor probleemgebieden ben ik juist ook
-                    geïnteresseerd in jouw sterke (karakter)eigenschappen en veerkracht. Mijn behandelingen hebben tot
-                    doel zelf weer verder te kunnen.
-                  </p>
-                  <p class="text-left">SKJ-register 120003700, AGB-code 94012812, KvK 56770413</p>
-                </div>
-                <div id="minderAnnebetLink" class="text-center">
-                  <a href="#annebet" onclick="toggleMeerAnnebet();"> Lees minder << </a>
-                </div>
-                <div id="meerAnnebetLink" class="text-center">
-                  <a href="#annebet" onclick="toggleMeerAnnebet();"> >> Lees meer </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -377,7 +334,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <div class="align-items-center">&copy; Raven Psychologie 2015-2024</div>
+        <div class="align-items-center">&copy; Raven Psychologie 2015-2025</div>
       </div>
     </footer>
 
@@ -438,20 +395,6 @@
         _minder_aernoud_link.style.display = _meer_aernoud.style.display === 'none' ? 'block' : 'none';
         _meer_aernoud_link.style.display = _meer_aernoud.style.display === 'none' ? 'none' : 'block';
         _meer_aernoud.style.display = _meer_aernoud.style.display === 'none' ? 'block' : 'none';
-      }
-
-      // Annebet
-      const _minder_annebet_link = document.getElementById('minderAnnebetLink');
-      const _meer_annebet_link = document.getElementById('meerAnnebetLink');
-      const _meer_annebet = document.getElementById('meerAnnebet');
-      _meer_annebet.style.display = 'none';
-      _minder_annebet_link.style.display = 'none';
-      _meer_annebet_link.style.display = 'block';
-
-      function toggleMeerAnnebet() {
-        _minder_annebet_link.style.display = _meer_annebet.style.display === 'none' ? 'block' : 'none';
-        _meer_annebet_link.style.display = _meer_annebet.style.display === 'none' ? 'none' : 'block';
-        _meer_annebet.style.display = _meer_annebet.style.display === 'none' ? 'block' : 'none';
       }
     </script>
   </body>
