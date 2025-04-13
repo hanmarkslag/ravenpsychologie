@@ -28,6 +28,9 @@
 .rp-text {
   font-size: 16px;
 }
+.rp-text-small {
+  font-size: 14px;
+}
 .rp-bold {
   font-weight: bold;
 }
@@ -50,7 +53,7 @@ a:hover {
   margin-top: 24px;
 }
 .rp-home-contact-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 .rp-home-contact-icon {
   width: 22px;
