@@ -63,15 +63,9 @@ a:hover {
   margin-top: -50px;
 }
 #team-psychologen .card {
-  background-color: #fcfcfc;
+  border: none;
 }
-#team-psychologen .card:hover {
-  background: #7a6c66;
-  color: #fff;
-}
-#team-psychologen .card:hover a {
-  color: #d1cecc;
-}
+
 #minderMarianneLink > a,
 #meerMarianneLink > a,
 #minderJolienLink > a,
