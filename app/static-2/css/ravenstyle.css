@@ -28,6 +28,9 @@
 .rp-text {
   font-size: 16px;
 }
+.rp-text-small {
+  font-size: 14px;
+}
 .rp-bold {
   font-weight: bold;
 }
@@ -50,7 +53,7 @@ a:hover {
   margin-top: 24px;
 }
 .rp-home-contact-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 .rp-home-contact-icon {
   width: 22px;
@@ -60,15 +63,9 @@ a:hover {
   margin-top: -50px;
 }
 #team-psychologen .card {
-  background-color: #fcfcfc;
+  border: none;
 }
-#team-psychologen .card:hover {
-  background: #7a6c66;
-  color: #fff;
-}
-#team-psychologen .card:hover a {
-  color: #d1cecc;
-}
+
 #minderMarianneLink > a,
 #meerMarianneLink > a,
 #minderJolienLink > a,
